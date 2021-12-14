@@ -1,0 +1,27 @@
+windows:
+
+To run on default system:
+
+1 check if python and pip are installed (install if not)
+2 navigate to project folder
+3 run: pip install -r requirements.txt 
+  (pip3 install -r requirements.txt for python 3.x in case multiple versions are installed)
+4 when all requirements are installed
+  run: python manage.py runserver 
+5 open http://127.0.0.1:8000/candidates to check data
+
+------------------------------------------------------------------------------------------
+
+To run in virtual environment:
+
+1 check if python and pip are installed (install if not)
+2 run: pip install virtualenv
+3 navigate to project folder
+4 run: python -m venv yourenvironmentname (to create virtual environment)
+5 run: yourenvironmentname\scripts\activate (to activate created environment)
+6 run: pip install -r requirements.txt
+7 when all requirements are installed
+  run: python manage.py runserver 
+8 open http://127.0.0.1:8000/candidates to check data
+
+hope you'll have so much fun :)
